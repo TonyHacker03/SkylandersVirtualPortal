@@ -1,6 +1,6 @@
-#SkylandersVirtualPortal
+# SkylandersVirtualPortal
 Use your android device like a PortalMaster! with this app (and this edited version of cemu) you can summon skylanders, MagicItem, Expansions, Traps, Crystals, Etc... directly in cemu emulator skylanders games!
-#Installation Tutorial
+# Installation Tutorial
 In the release section you can find 2 files and one folder
 ⦁	Cemu.exe (this is the edited version of cemu)
 ⦁	VirtPort.apk (this is the android app package)
