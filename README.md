@@ -16,7 +16,7 @@ Place the SkylandersDump folder (make sure that the folder has in it 6 subfolder
 DONE!
 
 # Settings tutorial 
-In the application you have to setup two data: the cemu running pc local ip address and the path were skylanders data are;
+In the application you have to setup two data: the cemu running pc local ip address and the path where skylanders data are;
 
 check your ip:
 - open command prompt from search bar
@@ -40,3 +40,4 @@ insert data and save
 
 (important note)
 make sure you have last version of each game (ex last v16 Imaginators added blue chests)
+
