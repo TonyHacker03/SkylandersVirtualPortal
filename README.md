@@ -35,9 +35,10 @@ insert data and save
 - Open cemu and open your skylanders game
 - go to Tools>Emulated USB Devices and make sure that the checkmark is enabled then collapse (not close) it 
 **(YOU HAVE TO DO THIS OPERATION EVERY TIME YOU WANT TO USE THE APP)**
-- open the app and ENJOY!!
+- open the app (with your device connected in the same network) and ENJOY!!
 
 
 (important note)
 make sure you have last version of each game (ex last v16 Imaginators added blue chests)
+
 
