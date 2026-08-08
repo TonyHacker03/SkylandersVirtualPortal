@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+    <title>Share Skylanders</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+    <div id="loading-overlay">
+        <div class="spinner"></div>
+        <div id="loading-text">Loading Collection...</div>
+    </div>
+
+    <!-- QR Code Display Modal -->
+    <div id="qr-modal" class="overlay-hidden" style="position:fixed; top:0; left:0; width:100vw; height:100vh; background:rgba(0,0,0,0.95); z-index:10000; display:flex; flex-direction:column; align-items:center; justify-content:center; padding:20px; box-sizing:border-box; transition:opacity 0.3s;">
+        <div style="font-size:24px; font-weight:bold; color:white; margin-bottom:20px; text-transform:uppercase; letter-spacing:2px;">Share via QR</div>
+        <div id="qrcode-container" style="background:white; padding:20px; border-radius:10px; box-shadow:0 10px 30px rgba(0,0,0,0.5);"></div>
+        <button class="action-btn" style="margin-top:40px; background:rgba(255,50,50,0.8); max-width:200px; width:100%;" onclick="closeQRModal()">Close QR</button>
+    </div>
+
+    <div id="app">
+        <div id="nav-header">
+            <button id="back-btn" style="display:none;" onclick="goBack()">◀ Back</button>
+            <div id="breadcrumb-container" onclick="goBack()">
+                <span id="breadcrumb">Library</span>
+            </div>
+            <input type="text" id="search-bar" placeholder="Search..." oninput="handleSearch()">
+            <button id="disconnect-btn" onclick="window.location.href='index.html'" style="background: rgba(255,50,50,0.6);">Close</button>
+        </div>
+        
+        <div id="drill-down-container"></div>
+        
+        <main id="skylanders-grid" style="display:none;"></main>
+    </div>
+
+    <script src="cordova.js"></script>
+    <script src="js/qrcode.min.js"></script>
+    <script src="js/pako.min.js"></script>
+    <script src="js/storage.js"></script>
+    <script src="js/share.js"></script>
+</body>
+</html>

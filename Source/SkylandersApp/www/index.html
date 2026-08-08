@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discovering Portals</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="startup.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+    <div class="startup-container">
+        <!-- Magic Portal Animation -->
+        <div class="portal-ring" id="portal-ring">
+            <div class="portal-inner"></div>
+        </div>
+
+        <h1 id="status-text">Searching for Portals...</h1>
+        <p id="subnet-info"></p>
+        
+        <div id="server-list" class="server-list"></div>
+
+        <div class="manual-entry">
+            <button id="manual-btn" class="action-btn" style="background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.3);">Connect Manually</button>
+            <div id="manual-input-container" style="display: none; margin-top: 15px; flex-direction: row; align-items: center; justify-content: center; gap: 10px; white-space: nowrap;">
+                <input type="text" id="manual-ip" placeholder="e.g. 192.168.1.100" class="glass-input">
+                <button id="connect-manual-btn" class="action-btn water-border" style="white-space: nowrap;">Connect</button>
+            </div>
+        </div>
+
+        <div style="margin-top: 40px; display: flex; flex-direction: column; align-items: center; gap: 15px;">
+            <div style="font-size: 14px; text-transform: uppercase; letter-spacing: 2px; color: rgba(255,255,255,0.7);">Offline Share</div>
+            <div style="display: flex; gap: 20px;">
+                <button class="action-btn" style="background: rgba(255, 150, 0, 0.8);" onclick="window.location.href='share.html'">📤 Send (QR)</button>
+                <button class="action-btn" style="background: rgba(0, 255, 100, 0.4);" onclick="scanQR()">📷 Receive (QR)</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="cordova.js"></script>
+    <script src="js/crypto-js.js"></script>
+    <script src="js/decoder.js"></script>
+    <script src="js/pako.min.js"></script>
+    <script src="js/storage.js"></script>
+    <script src="js/scanner.js"></script>
+    <script>
+        let scanInterval = null;
+        let foundServers = new Set();
+
+        const statusText = document.getElementById('status-text');
+        const subnetInfo = document.getElementById('subnet-info');
+        const serverList = document.getElementById('server-list');
+        const portalRing = document.getElementById('portal-ring');
+
+        function connectToServer(ip) {
+            localStorage.setItem('serverIp', ip);
+            window.location.href = 'app.html';
+        }
+
+        function addServerButton(ip) {
+            if (foundServers.has(ip)) return;
+            foundServers.add(ip);
+            
+            portalRing.classList.add('portal-found');
+            statusText.textContent = 'Portal Found!';
+            
+            const btn = document.createElement('button');
+            btn.className = 'server-card';
+            btn.innerHTML = '<span class="server-icon">&#11088;</span> <span class="server-ip">Server: ' + ip + '</span>';
+            btn.onclick = () => connectToServer(ip);
+            serverList.appendChild(btn);
+            
+            // Stop scanning once we find at least one server
+            if (scanInterval) {
+                clearInterval(scanInterval);
+                scanInterval = null;
+            }
+        }
+
+        function checkIp(ip) {
+            return new Promise((resolve) => {
+                const url = 'http://' + ip + ':5678/ping';
+                const TIMEOUT_MS = 600; // Fast timeout for local network
+
+                if (window.cordova && window.cordova.plugin && window.cordova.plugin.http) {
+                    cordova.plugin.http.sendRequest(url, { method: 'get', timeout: TIMEOUT_MS / 1000.0 }, function(res) {
+                        if (res.data && res.data.trim() === 'PONG') addServerButton(ip);
+                        resolve();
+                    }, function() {
+                        resolve(); // Ignore errors
+                    });
+                } else {
+                    const controller = new AbortController();
+                    const timeoutId = setTimeout(() => { controller.abort(); resolve(); }, TIMEOUT_MS);
+                    fetch(url, { signal: controller.signal })
+                        .then(res => res.text())
+                        .then(text => {
+                            clearTimeout(timeoutId);
+                            if (text.trim() === 'PONG') addServerButton(ip);
+                            resolve();
+                        }).catch(() => {
+                            clearTimeout(timeoutId);
+                            resolve();
+                        });
+                }
+            });
+        }
+
+        function getSubnet() {
+            return new Promise((resolve) => {
+                if (window.networkinterface) {
+                    networkinterface.getWiFiIPAddress(function(ipData) {
+                        const actualIp = typeof ipData === 'object' ? ipData.ip : ipData;
+                        const parts = actualIp.split('.');
+                        parts.pop();
+                        resolve(parts.join('.'));
+                    }, function() {
+                        resolve('192.168.1');
+                    });
+                } else {
+                    resolve('192.168.1');
+                }
+            });
+        }
+
+        async function performScanCycle() {
+            const lastIp = localStorage.getItem('serverIp');
+            if (lastIp && !foundServers.has(lastIp)) {
+                await checkIp(lastIp);
+                if (foundServers.has(lastIp)) return; // Found it!
+            }
+
+            const subnet = await getSubnet();
+            subnetInfo.textContent = 'Aggressive scan on: ' + subnet + '.x';
+
+            const ipsToScan = [];
+            for (let i = 1; i <= 254; i++) ipsToScan.push(subnet + '.' + i);
+            if (subnet !== '192.168.0') {
+                for (let i = 1; i <= 254; i++) ipsToScan.push('192.168.0.' + i);
+            }
+
+            // Chunk the requests to prevent blocking the UI thread on mobile
+            const CHUNK_SIZE = 25;
+            for (let i = 0; i < ipsToScan.length; i += CHUNK_SIZE) {
+                if (foundServers.size > 0) return; // Stop scanning if we found something
+                const chunk = ipsToScan.slice(i, i + CHUNK_SIZE);
+                await Promise.all(chunk.map(ip => checkIp(ip)));
+                // Small delay to let the event loop and UI breathe
+                await new Promise(r => setTimeout(r, 50));
+            }
+        }
+
+        let isScanning = false;
+        async function startContinuousScan() {
+            if (isScanning) return;
+            isScanning = true;
+            
+            portalRing.style.animation = 'spin 1.5s linear infinite';
+            
+            while (foundServers.size === 0) {
+                await performScanCycle();
+                if (foundServers.size === 0) {
+                    await new Promise(r => setTimeout(r, 2000)); // wait before next cycle
+                }
+            }
+            isScanning = false;
+        }
+
+        document.getElementById('manual-btn').addEventListener('click', function() {
+            document.getElementById('manual-input-container').style.display = 'flex';
+            this.style.display = 'none';
+        });
+
+        document.getElementById('connect-manual-btn').addEventListener('click', function() {
+            const ip = document.getElementById('manual-ip').value.trim();
+            if (ip) {
+                localStorage.setItem('serverIp', ip);
+                window.location.href = 'app.html';
+            }
+        });
+
+        window.onload = startContinuousScan;
+        document.addEventListener('deviceready', () => {
+            if (window.AndroidFullScreen) {
+                window.AndroidFullScreen.immersiveMode(null, null);
+            }
+            if (window.plugins && window.plugins.insomnia) {
+                window.plugins.insomnia.keepAwake();
+            }
+            startContinuousScan();
+        });
+    </script>
+</body>
+</html>

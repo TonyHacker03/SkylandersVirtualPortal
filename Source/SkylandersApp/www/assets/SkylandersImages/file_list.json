@@ -1,0 +1,2830 @@
+{
+    "name": "SkylandersImages",
+    "type": "directory",
+    "children": [
+        {
+            "name": "Giants",
+            "type": "directory",
+            "children": [
+                {
+                    "name": "Magic Item",
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "Dragonfire Cannon.png",
+                            "type": "file"
+                        },
+                        {
+                            "name": "Golden Dragonfire Cannon.png",
+                            "type": "file"
+                        },
+                        {
+                            "name": "Platinum Treasure Chest.png",
+                            "type": "file"
+                        },
+                        {
+                            "name": "Scorpion Striker Catapult.png",
+                            "type": "file"
+                        }
+                    ]
+                },
+                {
+                    "name": "Skylanders",
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "Air",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Jet-Vac.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Jet-VacLightCore.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Legendary Jet-Vac.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Lightning Rod (Series 2).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Polar Whirlwind.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Sonic Boom (Series 2).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Swarm.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Whirlwind (Series 2).png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Earth",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Bash (Series 2).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Crusher.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Flashwing.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Granite Crusher.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Jade Flashwing.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Prism Break (Series 2).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Prism Break LightCore.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Terrafin (Series 2).png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Fire",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Eruptor (Series 2).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Eruptor LightCore.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Flameslinger (Series 2).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Hot Dog.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Hot Head.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Ignitor (Series 2).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Legendary Ignitor.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Molten Hot Dog.png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Life",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Barkley.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Gnarly Tree Rex.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Legendary Stealth Elf.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Shroomboom LightCore.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Shroomboom.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Stealth Elf (Series 2).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Stump Smash (Series 2).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Tree Rex.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Zook (Series 2).png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Magic",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Double Trouble (Series 2).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Mini Jini.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Ninjini.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Pop Fizz LightCore.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Pop Fizz.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Punch Pop Fizz.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Royal Double Trouble.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Scarlet Ninjini.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Spyro (Series 2).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Wrecking Ball (Series 2).png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Tech",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Bouncer.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Drill Sergeant (Series 2).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Drobot (Series 2).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Drobot LightCore.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Legendary Bouncer.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Sprocket.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Trigger Happy (Series 2).png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Undead",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Chop Chop (Series 2).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Cynder (Series 2).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Eye Brawl.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Eye Small.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Fright Rider.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Hex (Series 2).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Hex LightCore.png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Water",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Chill LightCore.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Chill.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Gill Grunt (Series 2).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Legendary LightCore Chill.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Legendary Slam Bam.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Slam Bam (Series 2).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Thumpback.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Thumpling.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Zap (Series 2).png",
+                                    "type": "file"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Imaginators",
+            "type": "directory",
+            "children": [
+                {
+                    "name": "Creation Crystal",
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "Air",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Air Angel.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Air Lantern.png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Dark",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Dark Pyramid.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Dark Reactor.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Dark Rune.png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Earth",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Earth Armor.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Earth Rocket.png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Fire",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Fire Acorn.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Fire Reactor.png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Life",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Legendary Life Acorn.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Life Acorn.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Life Claw.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Life Rocket.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Life Rune.png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Light",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Legendary Light Fanged.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Light Fanged.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Light Rune.png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Magic",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Legendary Magic Lantern.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Magic Claw.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Magic Lantern.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Magic Pyramid.png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Tech",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Tech Armor.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Tech Reactor.png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Undead",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Undead Claw.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Undead Fanged.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Undead Lantern.png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Water",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Water Armor.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Water Fanged.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Water Rocket.png",
+                                    "type": "file"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Magic Item",
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "Blue Chest.png",
+                            "type": "file"
+                        },
+                        {
+                            "name": "Bronze Mystery Chest.png",
+                            "type": "file"
+                        },
+                        {
+                            "name": "Enchanted Elven Forest.png",
+                            "type": "file"
+                        },
+                        {
+                            "name": "Gold Mystery Chest.png",
+                            "type": "file"
+                        },
+                        {
+                            "name": "Gryphon Park Observatory.png",
+                            "type": "file"
+                        },
+                        {
+                            "name": "Silver Mystery Chest.png",
+                            "type": "file"
+                        }
+                    ]
+                },
+                {
+                    "name": "Skylanders",
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "Air",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Air Strike.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Bad Juju.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Egg Bomber Air Strike.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Mystical Bad Juju.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Wild Storm.png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Dark",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Hood Sickle.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Starcast.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Steel Plated Hood Sickle.png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Earth",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Barbella.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Dark Golden Queen.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Golden Queen.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Legendary Tri-Tip.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Tri-Tip.png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Fire",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Ember.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Flarewolf.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Hard-Boiled Flarewolf.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Mystical Tae Kwon Crow.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Tae Kwon Crow.png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Kaos",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Kaos.png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Life",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Ambush.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Boom Bloom.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Chompy Mage.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Crash Bandicoot.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Jingle Bell Chompy Mage.png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Light",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Aurora.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Blaster-Tron.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Solar Flare Aurora.png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Magic",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Buckshot.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Mysticat.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Pain-Yatta.png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Tech",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Chain Reaction.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Dr. Krankcase.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Dr. Neo Cortex.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Ro-Bow.png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Undead",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Candy-Coated Chopscotch.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Chopscotch.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Dark Wolfgang.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Legendary Pit Boss.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Pit Boss.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Wolfgang.png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Water",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Dark King Pen.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Grave Clobber.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "King Pen.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Tidepool.png",
+                                    "type": "file"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Spyro's Adventure",
+            "type": "directory",
+            "children": [
+                {
+                    "name": "Magic Item",
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "Anvil Rain.png",
+                            "type": "file"
+                        },
+                        {
+                            "name": "Darklight Crypt.png",
+                            "type": "file"
+                        },
+                        {
+                            "name": "Dragon's Peak.png",
+                            "type": "file"
+                        },
+                        {
+                            "name": "Empire of Ice.png",
+                            "type": "file"
+                        },
+                        {
+                            "name": "Ghost Swords.png",
+                            "type": "file"
+                        },
+                        {
+                            "name": "Healing Elixir.png",
+                            "type": "file"
+                        },
+                        {
+                            "name": "Hidden Treasure.png",
+                            "type": "file"
+                        },
+                        {
+                            "name": "Pirate Seas.png",
+                            "type": "file"
+                        },
+                        {
+                            "name": "Sky-Iron Shield.png",
+                            "type": "file"
+                        },
+                        {
+                            "name": "Sparx Dragonfly.png",
+                            "type": "file"
+                        },
+                        {
+                            "name": "Time Twister.png",
+                            "type": "file"
+                        },
+                        {
+                            "name": "Volcanic Vault.png",
+                            "type": "file"
+                        },
+                        {
+                            "name": "Winged Boots.png",
+                            "type": "file"
+                        }
+                    ]
+                },
+                {
+                    "name": "Skylanders",
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "Air",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Lightning Rod.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Sonic Boom.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Warnado.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Whirlwind.png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Earth",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Bash.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Dino-Rang.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Legendary Bash.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Prism Break.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Terrabite.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Terrafin.png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Fire",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Eruptor.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Flameslinger.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Ignitor.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Sunburn.png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Life",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Camo.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Stealth Elf.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Stump Smash.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Whisper Elf.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Zook.png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Magic",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Dark Spyro.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Double Trouble.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Legendary Spyro.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Spyro.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Voodood.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Wrecking Ball.png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Tech",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Boomer.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Drill Sergeant.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Drobot.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Legendary Trigger Happy.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Trigger Happy.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Trigger Snappy.png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Undead",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Chop Chop.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Cynder.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Ghost Roaster.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Hex.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Legendary Chop Chop.png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Water",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Gill Grunt.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Gill Runt.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Slam Bam.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Wham-Shell.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Zap.png",
+                                    "type": "file"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "SuperChargers",
+            "type": "directory",
+            "children": [
+                {
+                    "name": "Magic Item",
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "Kaos Trophy.png",
+                            "type": "file"
+                        },
+                        {
+                            "name": "Land Trophy.png",
+                            "type": "file"
+                        },
+                        {
+                            "name": "Sea Trophy.png",
+                            "type": "file"
+                        },
+                        {
+                            "name": "Sky Trophy.png",
+                            "type": "file"
+                        }
+                    ]
+                },
+                {
+                    "name": "Skylanders",
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "Air",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Hurricane Jet-Vac.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Legendary Hurricane Jet-Vac.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Stormblade.png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Dark",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Nightfall.png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Earth",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Eon's Elite Dino-Rang.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Shark Shooter Terrafin.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Smash Hit.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Steel Plated Smash Hit.png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Fire",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Dark Hammer Slam Bowser.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Dark Spitfire.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Hammer Slam Bowser.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Lava Lance Eruptor.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Spitfire.png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Life",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Dark Super Shot Stealth Elf.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Dark Turbo Charge Donkey Kong.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Eggcited Thrillipede.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Eon's Elite Zook.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Super Shot Stealth Elf.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Thrillipede.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Turbo Charge Donkey Kong.png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Light",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Astroblast.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Legendary Astroblast.png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Magic",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Big Bubble Pop Fizz.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Birthday Bash Big Bubble Pop Fizz.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Eon's Elite Voodood.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Power Blue Splat.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Splat.png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Tech",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Double Dare Trigger Happy.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Eon’s Elite Boomer.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "High Volt.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Power Blue Double Dare Trigger Happy.png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Undead",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Bone Bash Roller Brawl.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Eon's Elite Ghost Roaster.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Fiesta.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Frightful Fiesta.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Legendary Bone Bash Roller Brawl.png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Water",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Deep Dive Gill Grunt.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Dive-Clops.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Eon's Elite Slam Bam.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Missile-Tow Dive-Clops.png",
+                                    "type": "file"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Vehicles",
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "Air",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Clown Cruiser.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Dark Clown Cruiser.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Jet Stream.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Sky Slicer.png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Dark",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Dark Sea Shadow.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Sea Shadow.png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Earth",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Shark Tank.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Thump Truck.png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Fire",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Burn-Cycle.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Dark Hot Streak.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "E3 Hot Streak.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Golden Hot Streak.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Hot Streak.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Mobile Hot Streak (Special).png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Life",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Buzz Wing.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Nitro Stealth Stinger.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Stealth Stinger.png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Light",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Legendary Sun Runner.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Sun Runner.png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Magic",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Nitro Soda Skimmer.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Power Blue Splatter Splasher.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Soda Skimmer.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Splatter Splasher.png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Tech",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Barrel Blaster.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Dark Barrel Blaster.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Gold Rusher.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Power Blue Gold Rusher.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Shield Striker.png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Undead",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Crypt Crusher.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Tomb Buggy.png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Water",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Dive Bomber.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Reef Ripper.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Spring Ahead Dive Bomber.png",
+                                    "type": "file"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Swap Force",
+            "type": "directory",
+            "children": [
+                {
+                    "name": "Magic Item",
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "Arkeyan Crossbow.png",
+                            "type": "file"
+                        },
+                        {
+                            "name": "Battle Hammer.png",
+                            "type": "file"
+                        },
+                        {
+                            "name": "Fiery Forge.png",
+                            "type": "file"
+                        },
+                        {
+                            "name": "Groove Machine.png",
+                            "type": "file"
+                        },
+                        {
+                            "name": "Platinum Sheep.png",
+                            "type": "file"
+                        },
+                        {
+                            "name": "Sheep Wreck Island.png",
+                            "type": "file"
+                        },
+                        {
+                            "name": "Sky Diamond.png",
+                            "type": "file"
+                        },
+                        {
+                            "name": "Tower of Time.png",
+                            "type": "file"
+                        },
+                        {
+                            "name": "UFO Hat.png",
+                            "type": "file"
+                        }
+                    ]
+                },
+                {
+                    "name": "Skylanders",
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "Air",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Boom Jet Bottom.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Boom Jet Top.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Free Ranger Bottom.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Free Ranger Top.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Horn Blast Whirlwind (Series 3).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Legendary Free Ranger Bottom.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Legendary Free Ranger Top.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Pop Thorn.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Scratch.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Turbo Jet-Vac (Series 2).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Warnado LightCore.png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Earth",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Dark Slobber Tooth.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Doom Stone Bottom.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Doom Stone Top.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Flashwing LightCore.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Hyper Beam Prism Break (Series 3).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Knockout Terrafin (Series 3).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Rubble Rouser Bottom.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Rubble Rouser Top.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Scorp.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Slobber Tooth.png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Fire",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Blast Zone Bottom.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Blast Zone Top.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Dark Blast Zone Bottom.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Dark Blast Zone Top.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Fire Bone Hot Dog (Series 2).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Fire Kraken Bottom.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Fire Kraken Top.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Fryno.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Jade Fire Kraken Bottom.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Jade Fire Kraken Top.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Lava Barf Eruptor (Series 3).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Smolderdash LightCore.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Smolderdash.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Volcanic Eruptor.png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Life",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Bumble Blast LightCore.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Bumble Blast.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Dark Stealth Elf.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Grilla Drilla Bottom.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Grilla Drilla Top.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Jolly Bumble Blast.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Legendary Zoo Lou.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Ninja Stealth Elf (Series 3).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Stink Bomb Bottom.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Stink Bomb Top.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Thorn Horn Camo (Series 2).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Zoo Lou.png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Magic",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Dune Bug.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Enchanted Hoot Loop Bottom.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Enchanted Hoot Loop Top.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Enchanted LightCore Star Strike.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Hoot Loop Bottom.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Hoot Loop Top.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Mega Ram Dark Spyro.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Mega Ram Spyro (Series 3).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Star Strike LightCore.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Star Strike.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Super Gulp Pop Fizz (Series 2).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Trap Shadow Bottom.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Trap Shadow Top.png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Tech",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Big Bang Trigger Happy (Series 3).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Countdown LightCore.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Countdown.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Heavy Duty Sprocket (Series 2).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Kickoff Countdown.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Magna Charge Bottom.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Magna Charge Top.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Nitro Magna Charge Bottom.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Nitro Magna Charge Top.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Springtime Trigger Happy.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Spy Rise Bottom.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Spy Rise Top.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Wind Up.png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Undead",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Grim Creeper LightCore.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Grim Creeper.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Legendary LightCore Grim Creeper.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Legendary Night Shift Bottom.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Legendary Night Shift Top.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Night Shift Bottom.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Night Shift Top.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Phantom Cynder (Series 3).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Quick Draw Rattle Shake Bottom.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Quick Draw Rattle Shake Top.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Rattle Shake Bottom.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Rattle Shake Top.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Roller Brawl.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Twin Blade Chop Chop (Series 3).png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Water",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Anchors Away Gill Grunt (Series 3).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Blizzard Chill (Series 2).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Dark Wash Buckler Bottom.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Dark Wash Buckler Top.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Freeze Blade Bottom.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Freeze Blade Top.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Nitro Freeze Blade Bottom.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Nitro Freeze Blade Top.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Punk Shock.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Rip Tide.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Wash Buckler Bottom.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Wash Buckler Top.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Wham-Shell LightCore.png",
+                                    "type": "file"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Trap Team",
+            "type": "directory",
+            "children": [
+                {
+                    "name": "Magic Item",
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "Hand of Fate.png",
+                            "type": "file"
+                        },
+                        {
+                            "name": "Legendary Hand of Fate.png",
+                            "type": "file"
+                        },
+                        {
+                            "name": "Midnight Museum.png",
+                            "type": "file"
+                        },
+                        {
+                            "name": "Mirror of Mystery.png",
+                            "type": "file"
+                        },
+                        {
+                            "name": "Nightmare Express.png",
+                            "type": "file"
+                        },
+                        {
+                            "name": "Piggy Bank.png",
+                            "type": "file"
+                        },
+                        {
+                            "name": "Rocket Ram.png",
+                            "type": "file"
+                        },
+                        {
+                            "name": "Sunscraper Spire.png",
+                            "type": "file"
+                        },
+                        {
+                            "name": "Tiki Speaky.png",
+                            "type": "file"
+                        }
+                    ]
+                },
+                {
+                    "name": "Skylanders",
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "Air",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Blades.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Breeze Mini.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Eon's Elite Whirlwind.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Fling Kong.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Full Blast Jet-Vac (Series 3).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Gusto.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Legendary Blades.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Pet Vac Mini.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Power Punch Pet-Vac Mini.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Thunderbolt.png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Dark",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Blackout.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Knight Mare.png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Earth",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Bop Mini.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Eon's Elite Terrafin.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Fist Bump.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Head Rush.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Nitro Head Rush.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Rocky Roll.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Terrabite Mini.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Wallop.png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Fire",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Dark Wildfire.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Eggsellent Weeruptor Mini.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Eon's Elite Eruptor.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Hog Wild Fryno (Series 2).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Ka-Boom.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Small Fry Mini.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Torch.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Trail Blazer.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Weeruptor Mini.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Wildfire.png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Life",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Barkley Mini.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Bushwhack.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Dark Food Fight.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Eon's Elite Stealth Elf.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Food Fight.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Gnarly Barkley Mini.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "High Five.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Legendary Bushwhack.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Sure Shot Shroomboom (Series 2).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Tuff Luck.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Whisper Elf Mini.png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Light",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Knight Light.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Spotlight.png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Magic",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Blastermind.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Cobra Cadabra.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Deja Vu.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Enigma.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Eon's Elite Spyro.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Fizzy Frenzy Pop Fizz (Series 3).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "King Cobra Cadabra.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Legendary Deja Vu.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Love Potion Pop Fizz.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Mini Jini Mini.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Spry Mini.png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Tech",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Chopper.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Drobit Mini.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Eon's Elite Trigger Happy.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Gearshift.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Jawbreaker.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Legendary Jawbreaker.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Tread Head.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Trigger Snappy Mini.png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Undead",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Bat Spin.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Eon's Elite Chop Chop.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Eye Small Mini.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Funny Bone.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Hijinx Mini.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Krypt King.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Nitro Krypt King.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Short Cut.png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Water",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Dark Snap Shot.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Echo.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Eon's Elite Gill Grunt.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Flip Wreck.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Gill Runt Mini.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Lob-Star.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Snap Shot.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Thumpling Mini.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Tidal Wave Gill Grunt (Series 4).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Winterfest Lob-Star.png",
+                                    "type": "file"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Special Villain",
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "Outlaw Brawl and Chain.png",
+                            "type": "file"
+                        },
+                        {
+                            "name": "Rebel Lob Goblin.png",
+                            "type": "file"
+                        },
+                        {
+                            "name": "Red Hot Tussle Sprout.png",
+                            "type": "file"
+                        },
+                        {
+                            "name": "Riot Shield Shredder.png",
+                            "type": "file"
+                        },
+                        {
+                            "name": "Steamed Broccoli Guy.png",
+                            "type": "file"
+                        },
+                        {
+                            "name": "Steampunk Shrednaught.png",
+                            "type": "file"
+                        }
+                    ]
+                },
+                {
+                    "name": "Trap",
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "Air",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Air Hourglass (Tempest Timer).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Air Jughead (Drafty Decanter).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Air Screamer (Storm Warning).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Air Snake (Cloudy Cobra).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Air Sword (Cyclone Sabre).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Air Toucan (Breezy Bird).png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Dark",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Dark Handstand (Ghastly Grimace).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Dark Spider (Shadow Spider).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Dark Sword (Dark Dagger).png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Earth",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Earth Hammer (Slag Hammer).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Earth Handstand (Rubble Trouble).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Earth Hourglass (Dust of Time).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Earth Orb (Banded Boulder).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Earth Totem (Spinning Sandstorm).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Earth Toucan (Rock Hawk).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Easter Bunny Earth Trap.png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Fire",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Fire Captain's Hat (Spark Spear).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Fire Scepter (Fire Flower).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Fire Screamer (Scorching Stopper).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Fire Torch (Eternal Flame).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Fire Totem (Searing Spinner).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Fire Yawn (Blazing Belch).png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Kaos",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Kaos Trap.png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Ultimate Kaos Trap (Dark Edition Variant).png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Life",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Life Hammer (Weed Whacker).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Life Snake (Seed Serpent).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Life Sword (Jade Blade).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Life Torch (Emerald Energy).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Life Toucan (Oak Eagle).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Life Yawn (Shrub Shrieker).png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Light",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Light Owl (Heavenly Hawk).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Light Rocket (Shining Ship).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Light Yawn (Beam Scream).png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Magic",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Magic Axe (Axe of Illusion).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Magic Hourglass (Arcane Hourglass).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Magic Log Holder (Biter's Bane).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Magic Rocket (Rune Rocket).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Magic Skull (Sorcerous Skull).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Magic Totem (Spell Slapper).png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Tech",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Tech Angel (Automatic Angel).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Tech Flying Helmet (Makers Mana).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Tech Hand (Grabbing Gadget).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Tech Handstand (Topsy Techy).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Tech Scepter (Factory Flower).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Tech Tiki (Tech Totem).png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Undead",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Legendary Spectral Skull (Undead Skull).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Legendary Spirit Sphere (Undead Orb).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Undead Axe (Haunted Hatchet).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Undead Captain's Hat (Dream Piercer).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Undead Hand (Grim Gripper).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Undead Orb (Spirit Sphere).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Undead Skull (Spectral Skull).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Undead Snake (Spooky Snake).png",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Water",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "Legendary Flood Flask (Water Jughead).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Water Angel (Soaking Staff).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Water Axe (Aqua Axe).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Water Flying Helmet (Frost Helm).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Water Jughead (Flood Flask).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Water Log Holder (Wet Walter).png",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Water Tiki (Tidal Tiki).png",
+                                    "type": "file"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

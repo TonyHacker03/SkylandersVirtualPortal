@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+    <title>Skylanders Sync</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css?v=2">
+</head>
+<body>
+    <div id="loading-overlay">
+        <div class="spinner"></div>
+        <div id="loading-text">Loading Collection...</div>
+    </div>
+
+    <div id="reset-overlay" class="overlay-hidden">
+        <div class="reset-card premium-glass">
+            <h2 id="reset-title" style="margin-top: 0;">Reset to Level 1?</h2>
+            <p style="text-align: center; font-size: 14px; opacity: 0.8; margin-bottom: 20px;">Press and hold for 10 seconds to confirm. All modifications will be permanently lost.</p>
+            <button id="reset-hold-btn" class="action-btn hold-btn">
+                <span style="position: relative; z-index: 2;">Hold to Reset</span>
+                <div id="reset-progress"></div>
+            </button>
+            <button id="reset-cancel-btn" class="action-btn" style="margin-top: 20px; background: rgba(255,255,255,0.1);">Cancel</button>
+        </div>
+    </div>
+
+    <div id="sf-modal" class="overlay-hidden">
+        <div class="sf-modal-header">
+            <div class="sf-modal-title">Choose a Top Part</div>
+            <button class="sf-modal-close" onclick="document.getElementById('sf-modal').classList.add('overlay-hidden')">X</button>
+        </div>
+        <div id="sf-modal-grid"></div>
+    </div>
+
+    <div id="app">
+        <div id="nav-header">
+            <button id="back-btn" style="display:none;" onclick="goBack()">◀ Back</button>
+            <div id="breadcrumb-container" onclick="goBack()">
+                <span id="breadcrumb">Library</span>
+            </div>
+            <input type="text" id="search-bar" placeholder="Search...">
+            <button id="disconnect-btn" onclick="disconnect()">Disconnect</button>
+        </div>
+        
+        <div id="drill-down-container"></div>
+        
+        <main id="skylanders-grid" style="display:none;"></main>
+    </div>
+
+    <div id="portal-container">
+        <div id="portal-base"></div>
+        <div id="slots-container">
+            <div class="slot-wrapper"><div class="slot" id="slot-0"><img id="slot-0-img" class="slot-img" style="display: none;"></div><button class="clear-btn" onclick="clearSlot(0)">X</button></div>
+            <div class="slot-wrapper"><div class="slot" id="slot-1"><img id="slot-1-img" class="slot-img" style="display: none;"></div><button class="clear-btn" onclick="clearSlot(1)">X</button></div>
+            <div class="slot-wrapper"><div class="slot" id="slot-2"><img id="slot-2-img" class="slot-img" style="display: none;"></div><button class="clear-btn" onclick="clearSlot(2)">X</button></div>
+            <div class="slot-wrapper"><div class="slot" id="slot-3"><img id="slot-3-img" class="slot-img" style="display: none;"></div><button class="clear-btn" onclick="clearSlot(3)">X</button></div>
+            <div class="slot-wrapper"><div class="slot" id="slot-4"><img id="slot-4-img" class="slot-img" style="display: none;"></div><button class="clear-btn" onclick="clearSlot(4)">X</button></div>
+            <div class="slot-wrapper"><div class="slot" id="slot-5"><img id="slot-5-img" class="slot-img" style="display: none;"></div><button class="clear-btn" onclick="clearSlot(5)">X</button></div>
+            <div class="slot-wrapper"><div class="slot" id="slot-6"><img id="slot-6-img" class="slot-img" style="display: none;"></div><button class="clear-btn" onclick="clearSlot(6)">X</button></div>
+            <div class="slot-wrapper"><div class="slot" id="slot-7"><img id="slot-7-img" class="slot-img" style="display: none;"></div><button class="clear-btn" onclick="clearSlot(7)">X</button></div>
+        </div>
+    </div>
+
+    <script src="cordova.js"></script>
+    <script src="js/crypto-js.js"></script>
+    <script src="js/decoder.js?v=4"></script>
+    <script src="js/storage.js?v=4"></script>
+    <script src="js/app.js?v=4"></script>
+</body>
+</html>

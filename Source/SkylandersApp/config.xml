@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.sky.portal" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>SkylandersVirtualPortal</name>
+    <description>Sample Apache Cordova App</description>
+    <author email="dev@cordova.apache.org" href="https://cordova.apache.org">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    
+    <preference name="AndroidPersistentFileLocation" value="Internal" />
+
+    <platform name="android">
+        <edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application">
+            <application xmlns:android="http://schemas.android.com/apk/res/android" android:usesCleartextTraffic="true" />
+        </edit-config>
+        <preference name="orientation" value="portrait" />
+        <preference name="AndroidWindowSplashScreenAnimatedIcon" value="www/assets/icon.png" />
+        <preference name="scheme" value="http" />
+        <preference name="hostname" value="localhost" />
+    </platform>
+
+    <plugin name="cordova-plugin-advanced-http" spec="3.3.1" />
+    <plugin name="cordova-plugin-file" spec="8.1.3" />
+    <icon src="www/assets/icon.png" />
+
+    <platform name="electron">
+        <hook type="after_prepare" src="hooks/copy-electron-main.js" />
+        <hook type="after_prepare" src="hooks/copy-cordova-bridge.js" />
+    </platform>
+</widget>

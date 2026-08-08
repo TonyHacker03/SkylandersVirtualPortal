@@ -1,0 +1,13 @@
+**/node_modules/
+**/plugins/
+**/platforms/
+**/build/
+**/.vs/
+**/out/
+**/.cache/
+**/*.pdb
+**/*.zip
+Release/VirtPort.apk
+Source/Cemu/dependencies/
+Source/Cemu/SkylandersDumps/
+Source/Cemu/SkylandersNaked/

@@ -1,0 +1,162 @@
+.startup-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #13072E 0%, #3F2B96 50%, #00d2ff 100%);
+    background-size: 400% 400%;
+    animation: gradientAnim 15s ease infinite;
+    font-family: 'Outfit', sans-serif;
+    color: white;
+}
+
+@keyframes gradientAnim {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Magic Portal Loading Animation */
+.portal-ring {
+    width: 15vh;
+    height: 15vh;
+    border: 5px solid rgba(255, 255, 255, 0.2);
+    border-top: 5px solid #00d2ff;
+    border-radius: 50%;
+    animation: spin 1.5s linear infinite;
+    box-shadow: 0 0 20px #00d2ff;
+    margin-bottom: 3vh;
+    position: relative;
+    transition: all 0.5s;
+}
+
+.portal-inner {
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    width: 70%;
+    height: 70%;
+    border-radius: 50%;
+    background: radial-gradient(circle, #00d2ff, transparent 60%);
+    opacity: 0.5;
+    animation: pulse 2s infinite;
+}
+
+.portal-found {
+    border-color: #38ef7d;
+    box-shadow: 0 0 40px #38ef7d;
+    animation: pulse 1.5s infinite;
+}
+.portal-found .portal-inner {
+    background: radial-gradient(circle, #38ef7d, transparent 60%);
+    opacity: 0.8;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+@keyframes pulse {
+    0% { transform: scale(0.9); opacity: 0.5; }
+    50% { transform: scale(1.1); opacity: 0.8; }
+    100% { transform: scale(0.9); opacity: 0.5; }
+}
+
+#status-text {
+    font-size: 3vh;
+    margin: 0;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    white-space: nowrap;
+}
+
+#subnet-info {
+    font-size: 1.5vh;
+    opacity: 0.7;
+    margin-top: 1vh;
+}
+
+.server-list {
+    margin-top: 4vh;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 80%;
+    max-width: 400px;
+}
+
+.server-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 12px;
+    padding: 15px 20px;
+    color: white;
+    font-size: 2.2vh;
+    font-weight: 800;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    transition: all 0.3s;
+}
+
+.server-card:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px #00d2ff;
+    border-color: #00d2ff;
+}
+
+.manual-entry {
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.glass-input {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 10px 15px;
+    border-radius: 8px;
+    color: white;
+    font-size: 2vh;
+    font-family: 'Outfit', sans-serif;
+    outline: none;
+    text-align: center;
+    margin-right: 10px;
+}
+.glass-input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.action-btn {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.8vh;
+    font-weight: 800;
+    padding: 10px 25px;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.action-btn:hover, .action-btn:active {
+    transform: translateY(-3px) scale(1.05);
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 25px #00d2ff;
+    border-color: #00d2ff;
+}
